@@ -1,0 +1,12 @@
+/* productos */
+
+.productos {
+width: 100%;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+gap: 16px;
+& img {
+    width: 276px;
+}
+}

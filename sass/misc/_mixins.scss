@@ -1,0 +1,15 @@
+/* helpers */
+
+@mixin flex($direction, $justify, $align, $gap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}

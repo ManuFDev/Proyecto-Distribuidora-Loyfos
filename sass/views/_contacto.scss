@@ -1,0 +1,90 @@
+/* contacto*/
+
+
+.contacto__section {
+    font-size: 1.7em;
+    margin-top: 1rem;
+
+    & .contacto__content {
+        margin-bottom: 8rem;
+    }
+}
+
+.contacto__list ul {
+    list-style-type: none;
+    padding: 0;
+
+    & a {
+        text-decoration: none;
+        color: black;
+        padding: 0;
+    }
+
+    & li {
+        margin: 2rem 0;
+
+        & i {
+            padding-right: 0.5rem;
+        }
+    }
+}
+
+
+
+.contacto__form {
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.5em;
+
+    & input {
+        border: none;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        outline: none;
+        padding: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        &:hover {
+            border: 1px solid black;
+            transition: all 0.7s ease;
+        }
+    }
+
+    textarea {
+        border: none;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        outline: none;
+        resize: none;
+        margin-top: 1rem;
+
+        &:hover {
+            border: 1px solid black;
+            transition: all 0.6s ease;
+
+        }
+    }
+
+    .contacto__form__buttom {
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+    }
+}
+
+
+
+.main__contacto {
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+@media not screen and (min-width: (767px)) {
+    iframe {
+        width: 100%;
+    }
+}

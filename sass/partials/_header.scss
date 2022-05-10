@@ -1,0 +1,76 @@
+/* header y navbar*/
+
+header {
+    background-color: $principal;
+    font-size: 1.5em;
+    width: 100vw;
+
+    .search {
+        width: 100%;
+        height: 31px;
+        font-size: 1em;
+        border-radius: 20px;
+    }
+
+    .btn {
+        color: $secondary;
+        border-color: $secondary;
+        width: 60px;
+        font-size: 1.3em;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        border-radius: 20px;
+    }
+}
+
+.divider {
+    background-color: $secondary;
+    opacity: 0.5;
+}
+
+.nav {
+    justify-content: center;
+
+    &-link {
+        color: $secondary;
+        position: relative;
+
+        &:hover {
+            color: map-get($estilos, colorh);
+
+        }
+    }
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+    font-size: 0.9em;
+    background-color: $principal;
+
+    & a {
+        color: $secondary;
+        position: relative;
+    }
+
+    & a:hover {
+        color: map-get($estilos, colorh);
+        background-color: $principal;
+    }
+
+    .dropdown-divider {
+        color: $secondary;
+        opacity: 1;
+    }
+}
+
+.navbar__container {
+    justify-content: space-around !important;
+}
+
+
+// footer payments
+
+.divider__payments {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

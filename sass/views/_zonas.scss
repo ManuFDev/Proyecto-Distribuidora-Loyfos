@@ -1,0 +1,58 @@
+/* zonas*/
+
+.bloque__cobertura__container {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+    & h1 {
+        font-size: 4em;
+    }
+}
+
+.zone__container {
+    & .days {
+        text-align: center; 
+        font-weight: 100;
+        margin-bottom: 1.5rem;
+    }
+    .zone {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5rem; 
+    }
+    .zone__caba {
+        margin-bottom: 5rem;
+    }
+    .envios {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 3rem;
+        
+        & h2 {
+            font-size: 4em;
+             margin-bottom: 2rem;
+        }
+        & strong {
+            font-size: 1.7em;
+        }
+        .envios__p {
+            font-size: 1.4em;
+        }
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
